@@ -17,7 +17,8 @@ if("${SQUIRRELJME_SYSTEM}" STREQUAL "3ds" OR
 	"${SQUIRRELJME_SYSTEM}" STREQUAL "playstation2" OR
 	"${SQUIRRELJME_SYSTEM}" STREQUAL "gamecube" OR
 	"${SQUIRRELJME_SYSTEM}" STREQUAL "wii" OR
-	"${SQUIRRELJME_SYSTEM}" STREQUAL "wiiu")
+	"${SQUIRRELJME_SYSTEM}" STREQUAL "wiiu" OR
+	"${SQUIRRELJME_SYSTEM}" STREQUAL "unknown")
 	message(STATUS "Threads not supported!")
 
 	# Only a single thread is possible
